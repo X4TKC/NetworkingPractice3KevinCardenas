@@ -31,7 +31,7 @@ resource "aws_subnet" "Office3" {
 }
 resource "aws_subnet" "RemoteOffice" {
   vpc_id     = aws_vpc.KCVPC.id
-  cidr_block = "192.168.2.192/27"
+  cidr_block = "192.168.2.192/26"
 
   tags = {
     Name = "Remote office"
