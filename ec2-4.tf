@@ -8,6 +8,6 @@ resource "aws_instance" "ec2RemoteOffice" {
   instance_type               = "t2.micro"
 
   tags = {
-    Name = "Ec2-4"
+    Name = "KC-Ec2-4"
   }
 }

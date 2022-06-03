@@ -9,6 +9,6 @@ resource "aws_instance" "ec2office3" {
   instance_type               = "t2.micro"
 
   tags = {
-    Name = "Ec2-3"
+    Name = "KC-Ec2-3"
   }
 }
